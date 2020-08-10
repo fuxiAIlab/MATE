@@ -15,4 +15,15 @@ In this paper, we propose an intuitive and effective embedding method called \te
 		Then we first propose the periodic activity alignment to capture the long-term activity-level periodicity and construct the activity-behavior alignment to combine the activity-level with behavior-level representation to make the final prediction.
 		We experimentally prove the effectiveness of the proposed model on a game player behavior sequence dataset and a real-world App usage trace dataset.
 		Further, we deploy the proposed behavior tracing model into a game scene preloading service which can effectively reduce the waiting time of scene transfer by preloading the predicted game scene for each user.
+		
+## Reference
+Please use the following bib
+```
+@inproceedings{wu2020mate,
+	title={Deep Behavior Tracing with Multi-level Temporality Preserved Embedding},
+	author={Wu, Runze and Deng, Hao and Tao, Jianrong and Fan, Changjie and Liu, Qi and Chen, Liang},
+	booktitle={Proceedings of the 29th ACM International Conference on Information and Knowledge Management (CIKM '20)},
+	year={2020}
+}
+```
 
