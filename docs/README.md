@@ -4,6 +4,7 @@ The paper `Deep Behavior Tracing with Multi-level Temporality Preserved Embeddin
 ## Authors
 Runze Wu (NetEase Fuxi AI Lab), Hao Deng (NetEase Fuxi AI Lab), Jianrong Tao (NetEase Fuxi AI Lab), Changjie Fan (NetEase Fuxi AI Lab), Qi Liu (University of Science and Techonology of China) and Liang Chen (Sun Yat-sen University).
 
+
 ## Abstract
 Behavior tracing or predicting is a key component in various application scenarios like online user modeling and ubiquitous computing, which significantly benefits the system design (e.g., resource pre-caching) and improves the user experience (e.g., personalized recommendation). 
 		Traditional behavior tracing methods like Markovian and sequential models take recent behaviors as input and infer the next move by using the most real-time information.
@@ -15,7 +16,20 @@ In this paper, we propose an intuitive and effective embedding method called \te
 		Then we first propose the periodic activity alignment to capture the long-term activity-level periodicity and construct the activity-behavior alignment to combine the activity-level with behavior-level representation to make the final prediction.
 		We experimentally prove the effectiveness of the proposed model on a game player behavior sequence dataset and a real-world App usage trace dataset.
 		Further, we deploy the proposed behavior tracing model into a game scene preloading service which can effectively reduce the waiting time of scene transfer by preloading the predicted game scene for each user.
-		
+
+## Background
+![](https://noterminus.gitee.io/image_bed/images/MATE-CIKM20-MapPreloadingExample.png)
+<center>Game Scene Preloading in MMORPGs</center>
+
+## Model Architecture
+![](https://noterminus.gitee.io/image_bed/images/MATE-CIKM20-MATE_MODEL.png)
+
+## Performance Comparison
+![](https://noterminus.gitee.io/image_bed/images/MATE-CIKM20-Performance.png)
+
+## Online Service
+![](https://noterminus.gitee.io/image_bed/images/MATE-CIKM20-OnlineService.png)
+
 ## Reference
 Please use the following bib
 ```
