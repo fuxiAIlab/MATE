@@ -1,0 +1,8 @@
+title: MATE
+logo:
+description: 'This is the detail page of the paper <br><strong><em>Deep Behavior Tracing with Multi-level Temporality Preserved Embedding</em></strong>'
+show_downloads: true
+google_analytics:
+theme: jekyll-theme-minimal
+paper_link: /tree/master/docs/mate-cikm20.pdf
+data_link: /tree/master/data
